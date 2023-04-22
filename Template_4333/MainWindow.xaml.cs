@@ -25,6 +25,11 @@ namespace Template_4333
             InitializeComponent();
         }
 
+        private void _4333_Alekseev(object sender, RoutedEventArgs e)
+        {
+            _4333_Alekseev soundcloudmilanlovv = new _4333_Alekseev();
+            soundcloudmilanlovv.Show();
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var form = new _4333_Gibadulllina();
