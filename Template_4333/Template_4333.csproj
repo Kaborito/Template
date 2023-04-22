@@ -56,6 +56,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="4333_Alekseev.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="4333_Davliev.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -84,6 +88,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="4333_Alekseev.xaml.cs">
+      <DependentUpon>4333_Alekseev.xaml</DependentUpon>
+    </Compile>
     <Compile Include="4333_Davliev.xaml.cs">
       <DependentUpon>4333_Davliev.xaml</DependentUpon>
     </Compile>
